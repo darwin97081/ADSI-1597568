@@ -1,0 +1,30 @@
+take 4 steps
+I give half turn
+I close the door
+I give half turn
+I take off the clothes
+I turn to the left
+I advance 4 steps
+I open the curtain
+I advance 2 steps
+I close the curtain
+I turn to the right
+I open the faucet
+I take a bath
+I close the faucet
+I turn to the right
+I open the curtain
+I advance 4 steps
+I close the curtain
+I advance 2 steps
+grasp the towel
+I dry off the body
+I put on the uniform
+I turn to the right
+I open the door
+I advance 4 steps
+I turn to the right
+I advance 10 steps
+grasp the handbag
+I advance 15 steps
+I open the main door

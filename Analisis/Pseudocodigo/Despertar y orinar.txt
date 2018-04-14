@@ -1,0 +1,32 @@
+Despertar
+Sentarme en la cama
+Colocarme las chanclas
+Colocarme de pie
+Dar 4 pasos
+Girar a la izquierda
+Dar 4 pasos
+Girar a la derecha
+Dar 5 pasos
+Girar a la izquierda
+Dar dos pasos
+Abrir la puerta
+Dar 3 pasos
+Orinar
+Girar a la derecha
+Abrir el grifo del lavamanos
+Lavarme las manos
+Cerrar el grifo
+Girar a la derecha
+Dar 4 pasos
+Dar media vuelta
+Cerrar puerta
+Girar a la izquierda
+Dar 5 pasos
+Girar a la izquierda
+Dar 5 pasos
+Girar a la derecha
+Dar 4 pasos
+Media vuelta
+Sentarse en la cama
+Acostarse
+Y dormir

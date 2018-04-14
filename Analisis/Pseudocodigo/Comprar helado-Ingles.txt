@@ -1,0 +1,25 @@
+give half turn
+I close the door
+I give half turn
+I advance 5 meters
+I turn to the left
+I advance 30 meters
+I turn to the right
+I advance 100 meters
+I turn to the left
+I advance 100 meters
+I turn to the right
+I take 4 steps
+I buy the ice cream
+I give half turn
+I advance 4 steps
+I turn to the left
+I advance 100 meters
+I turn to the right
+I advance 100 meters
+I turn to the left
+I advance 30 meters
+I turn to the right
+I advance 5 meters
+I sit down in the floor of the one before garden
+I eat up the ice cream

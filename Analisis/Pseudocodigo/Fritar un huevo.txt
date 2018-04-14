@@ -1,0 +1,52 @@
+Me pongo de pie
+Giro a la izquierda
+Doy 10 pasos
+Giro a la derecha
+Me agacho
+Agarro la sartén
+Agarro el aceite
+Agarro la sal
+Me incorporo
+Coloco el aceite en el mesón
+Coloco la sal
+Giro a la izquierda
+Coloco la sartén en la estufa
+Abro llave de seguridad del gas
+Giro la perilla
+Aprieto el botón de encendido
+Giro a la derecha
+Agarro el aceite
+Giro a la izquierda
+Vierto aceite en la sartén
+Giro a la derecha
+Coloco el aceite en el mesón
+Giro a la derecha
+Doy 4 pasos
+Giro a la izquierda
+Agarro un huevo
+Giro a la izquierda
+Doy 4 pasos
+Golpeo el huevo
+Vierto el huevo en el sartén
+Giro a la izquierda
+Tiro la cascara en la basura
+Doy media vuelta
+Agarro la sal
+Giro a la izquierda
+Dos chispas de sal en el huevo
+Giro a la derecha coloco la sal en el mesón
+Giro a la izquierda
+Espero unos minutos
+Apago la estufa
+Cierro las llaves de seguridad del gas
+Agarro la sartén
+Giro a la derecha
+Agarro un plato
+Coloco el huevo en la sartén
+Dejo la sartén en el mesón
+Agarro una cuchara
+Giro a la derecha
+Doy 10 pasos
+Me siento en la silla
+Coloco el plato en el comedor
+Y me como el huevo
