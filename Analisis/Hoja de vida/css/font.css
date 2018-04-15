@@ -1,0 +1,18 @@
+@font-face {
+    font-family:callofduty;
+    src: url(../font/callofduty.otf)
+}
+@font-face{
+	font-family:justiceleague;
+	src: url(../font/justiceleague.ttf)
+
+}
+
+h2,h3 {
+	font-family:justiceleague; 
+    
+}
+
+p {
+	font-family:callofduty;
+}

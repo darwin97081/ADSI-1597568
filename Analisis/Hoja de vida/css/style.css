@@ -1,0 +1,183 @@
+
+body{
+	color: violet;
+	display: flex;
+	height: 100%;
+}
+
+/******Contenedor********/
+
+.container{
+	display: flex;
+	background: springgreen;
+	flex-direction: column;
+	align-items: stretch;
+	flex-grow: 1;
+	height: 100vh;
+	
+}
+/**********parte de arriba********/
+.above {
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+/*****referencias personales*******/
+.one {
+	flex-grow: 1;
+	background-color: #85C1E9;
+	display: flex;
+	justify-content: stretch;
+	align-items: center;
+	text-align: center;
+	color: black;
+	flex-direction: column;
+
+}
+
+.refer{
+	margin: 5px;
+	text-align: center;
+	font-size: 0.8em;
+	flex-grow: 1;
+	color: black;
+}
+.perso{
+	flex-direction: row;
+	align-items: center;
+
+}
+/********referencias personales*********/
+.tow {
+	flex-grow: 3;
+	background-color: #85C1E9;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	color: black;
+	text-align: center;
+	
+}
+
+.three {
+	flex-grow: 1.5;
+	background-color: #2980B9;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img {
+	width: 250px; height: 250px;
+	border-radius: 50%;
+	
+}
+
+/***********parte de arriba*********/
+/***********parte de abajo**********/
+.down{
+	display: flex;
+	flex-direction: row;
+	height: 100%;
+}
+
+.done {
+	flex-grow: 2;
+	background-color: #85C1E9;
+	justify-content: stretch;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: black;
+
+}
+
+.dtow {
+	flex-grow: 0.2;
+	background-color: #85C1E9;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: black;
+}
+
+.studies {
+	text-align: center;
+	color: black;
+
+}
+
+.profe {
+	text-align: center;
+}
+
+.dthree {
+	flex-grow: 0.2;
+	background-color: #85C1E9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: black;
+	
+}
+
+.certify {
+	text-align: center;
+}
+/***********parte de abajo***********/
+
+/********Contenedor***********/
+
+/********responsive*****************/
+
+@media (max-width: 1040.98px){
+	.perso{
+		flex-direction: column;
+	}
+	.above{
+		flex-direction:column-reverse;
+	}
+	.down{
+		flex-direction: column;
+	}
+	.one{
+		flex-direction: column;
+		background-color: rgb(206, 32, 32);
+		height: 340px;
+		
+	}
+	.tow{
+		flex-direction: column;
+		background-color: rgb(233, 50, 50);
+		
+		height: 380px;
+	}
+	.img{
+		width: 200px; height: 200px;
+	}
+	.body{
+		
+	}
+	.three{
+		height: 300px;
+		background-color: rgb(245, 62, 62);
+	}
+	.container {
+		height: 100%;
+	}
+	.done{
+		background-color: rgb(189, 15, 15);
+	}
+	.dtow {
+		background-color: rgb(172, 0, 0);
+	}
+	.dthree{
+		background-color: rgb(141, 0, 0);
+	}
+}
