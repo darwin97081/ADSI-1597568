@@ -1,0 +1,169 @@
+body {  
+	background: url(../img/fondo.jpg);
+	}
+
+.darwin  {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 10px;
+	color: black;
+	font-family: 'Chewy', cursive;
+	}
+
+header h1 {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	font-style: 
+    }
+
+nav ul li {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	display: inline;
+	padding-left: 90px;
+ 	padding-right: 90px;
+ 	font-family: 'Chewy', cursive;
+    }
+
+section {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;
+	font-family: 'Chewy', cursive;
+    }
+
+.primero {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;	
+    }
+.segundo {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;	
+	padding: 10px;
+    }
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	color: white;
+    }
+
+footer .nombre{
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;	
+	padding: 10px;
+    }
+
+p {
+  	color:black; 
+	font-family: vernada, arial;
+	}
+
+h1 {
+   	color:red;
+	font-weight:normal;
+	font-family:helvetica,arial;
+	font-size:50px;	
+	text-align:center;					
+
+	}
+
+.imagen {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;	
+	padding: 10px;
+	width: 500px;
+	position: relative;
+	right: 120px;
+	}
+
+.video {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;	
+	padding: 10px;
+	width: 500px;
+	position: relative;
+	right: 120px;
+
+}
+
+.texto {
+	background-color: black; 
+	background-color:rgba(0,0,0,0.5);
+    border: 3px solid;
+	border-color: none;
+	text-align: center;
+	border-radius: 20px;
+	color: white;	
+	padding: 10px;
+	margin: 10px;
+	width: 500px;
+	position: relative;
+	left: 400px;
+	}
+    .subtitulo {
+    	color: white;
+    	font-size: 30px; 
+    }
+
+p {
+	color: white;
+}
+
+div {
+	text-align: center;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+
+a   {
+	text-decoration: none;
+	color: white;
+	font-style: italic;
+}
+
+
+
+

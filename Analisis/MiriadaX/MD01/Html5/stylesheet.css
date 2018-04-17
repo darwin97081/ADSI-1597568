@@ -1,0 +1,48 @@
+header 
+    { 
+      background-color: #F6CEEC; 
+      border: 3px solid;
+	  border-color: red;
+	  text-align: center;
+	}
+
+nav    
+    {
+      background-color: #82FA58;
+	  border: 3px solid;
+	  border-color: red;
+	}
+
+article 
+    {
+      background-color: #F3F781;
+	  border: 3px solid;
+	  border-color: red;
+	}
+
+footer 
+	{ 
+	  background-color: #A9F5F2;
+ 	  border: 3px solid;
+ 	  border-color: red;
+ 	  text-align: center;
+ 	}
+
+nav ul li
+ 	{ 
+     font-family: 'Anton', sans-serif;
+     font-family: 'Gloria Hallelujah', cursive;
+     color: #0101DF;
+ 	 background-color:#FFBF00; 
+     text-align: center;
+ 	 display: inline;
+ 	 padding-left: 110px;
+ 	 padding-right: 110px;
+ 	 border-bottom: 900px 110px solid transparent;
+ 	 transition:border-bottom .7s;
+ 	 border-radius: 4px;
+ 	}
+ 	nav ul li:hover
+ 	{
+     border-bottom: 9px solid #088A85;
+ 	}

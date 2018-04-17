@@ -1,0 +1,174 @@
+
+<!DOCTYPE html><html lang="en">
+<head> 
+ <title>Tarea obligatoria</title>  <meta charset="utf-8">
+ <script type="text/javascript"   src="jquery-2.1.4.min.js">
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <script src="js/jquery-1.11.2.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+  <style type="text/css">
+  .carousel-inner .item img,
+  .carousel-inner .item img               { width: 100%;}
+  .container .carousel-indicators .active { background-color:green;}
+  .container .carousel-indicators li      { border: 1px solid green;}
+  .container .panel-footer                { margin-top:20px;}
+  </style>
+  <script type="text/javascript">
+  var num, acc = 0, op = "";
+
+  $(function() {
+      num = $("#num");
+
+    $("#num").on("click",vaciar);
+
+    $("#btn_x_a_la_2").on("click",x_a_la_2);
+    $("#btnMas").on("click",sumar);
+    $("#btnMenos").on("click",resta);
+    $("#btnPor").on("click",multiplicar);
+    $("#btnEntre").on("click",dividir);
+    $("#btn_x_a_la_Y").on("click",xy);
+    $("#btnSumatoria").on("click",sumatoria);
+    $("#btnProd").on("click",producto);
+    $("#btnInv").on("click",inversa);
+    $("#btnRaizCuadrada").on("click",raiz_cuadrada);
+    $("#btnPartEnt").on("click",parte_enteraa);
+    $("#btnPot2").on("click",potencia_2);
+    $("#btnFact").on("click",factorial);
+    $("#btnCalcular").on("click",calcular);
+
+
+   
+  });
+
+
+  function vaciar(){ num.val("");}
+  function x_a_la_2(){num.val(Math.pow(num.val(),2));}
+  function inversa(){num.val(1 / +num.val());}
+  function raiz_cuadrada(){
+    if(num.val() > 0)
+      num.val(Math.sqrt(num.val()));
+    else
+      num.val("Error");
+  }
+  function parte_enteraa(){
+     if (num.val() > 0)
+      num.val(Math.floor(+num.val()));
+   else 
+      num.val(-(Math.ceil(+num.val())));
+  }
+
+   function potencia_2(){
+    var s = 1 ;
+    for (var i = 1; i <= +num.val(); i++) { s = s*2; }
+    num.val(s);
+   }  
+
+   function factorial(){
+    var cont = 1;
+    var fact=1
+    for (var i = 1; i <= +num.val(); i++) {  fact=fact * i;   }
+    num.val(fact);
+   }
+
+  function sumar(){acc=num.val(); op="+";}
+  function resta(){acc=num.val(); op="-";}
+  function multiplicar(){acc=num.val();op="x";}
+  function dividir(){acc=num.val();op="/"}
+  function xy(){acc=num.val();op="xy"}
+  function sumatoria(){
+    var cad;
+    var sum=0;
+    cad=num.val();
+    cad.split(",").forEach(function(i){
+      sum = +sum + +i;
+    });
+    num.val(sum);
+  }
+  function producto(){
+    var cad;
+    var s = 1;
+    cad=num.val();
+    cad.split(",").forEach( function(i){s = +s * +i});
+    num.val(s);
+  }
+
+
+  function calcular(){
+    if(op === "+")  { num.val(+acc + (+num.val()));}
+    if(op === "-")  { num.val(+acc - (+num.val()));}
+    if (op === "x") { num.val(+acc * (+num.val()));}
+    if (op === "/") {
+      if(+num.val() === 0)
+        num.val("error no se puede dividir entre cero");
+      else 
+        num.val(+acc / (+num.val()));
+    } 
+    if(op ==="xy") {num.val(Math.pow(+acc,+num.val()));}
+  }
+
+  </script>
+</head>
+
+<body>
+<div class="container">
+  <nav class="navbar navbar-inverse ">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#miMenu">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html">MOOC</a>
+    </div>
+    <div class="collapse navbar-collapse" id="miMenu">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">INICIO</a></li>
+        <li><a href="puzzle.html">PUZZLE</a></li>
+        <li><a href="calculadora.html">CALCULADORA</a></li>
+      </ul>
+    </div>
+  </div>
+  </nav>
+  
+  <div>
+  <input type="text" id="num" placeholder="escribe aqui" class="form-control">
+
+  
+  <table>
+      <tr>
+      <td><button id="btnMas"   class="btn-group btn-group-justified">+</button></td>
+      <td><button id="btnMenos" class="btn-group btn-group-justified">-</button></td>
+      <td><button id="btnPor"   class="btn-group btn-group-justified">x</button></td>
+      <td><button id="btnEntre" class="btn-group btn-group-justified">/</button></td>
+      <td><button id="btnCalcular" class="btn-group btn-group-justified">=</button></td>    
+      </tr>
+
+      <tr>
+        <td><button id="btnSumatoria" class="btn-group btn-group-justified"> &#931; X</button></td>
+        <td><button id="btn_x_a_la_2" class="btn-group btn-group-justified"> x<sup>2</sup> </button></td>
+        <td><button id="btn_x_a_la_Y" class="btn-group btn-group-justified"> X<sup>Y</sup> </button></td>
+        <td><button id="btnPartEnt" class="bbtn-group btn-group-justified"> PE</button></td>
+        <td><button id="btnFact" class="btn-group btn-group-justified">N!</button></td>
+      </tr>
+      <tr>
+        <td><button id="btnProd" class="btn-group btn-group-justified"> P(x) </button></td>
+        <td><button id="btnInv" class="btn-group btn-group-justified"> 1/X </button></td>
+        <td><button id="btnPot2" class="btn-group btn-group-justified"> 2 <sup>N</sup> </button></td>
+        <td><button id="btnRaizCuadrada" class="btn-group btn-group-justified"> &#8730;X</button></td>
+        
+      </tr>
+      
+  </table>
+</div>
+
+
+
+
+  <div class="panel-footer">Darwin</div>
+</div>
+</body>
+</html>
+

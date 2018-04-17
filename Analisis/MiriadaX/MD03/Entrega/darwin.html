@@ -1,0 +1,51 @@
+<!DOCTYPE html><html>
+<head>
+  <title>Date</title>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <h1 id="h1"></h1>
+  <p>Darwin Andres Torres</p>
+  <h2 id="h2">La fecha y la hora son:</h2>
+  <div id="fecha"></div>
+  <div id="contenedor">
+  <!--
+  a) Contenido de innerHTML de elemento identificado por id="h2"
+  b) Contenido de outerHTML de elemento identificado por id="h1"
+  c) Contenido de de la propiedad global: location.href
+  d) Contenido de de la propiedad global: location
+  e) Contenido de de las propiedades globales: screen.width y screen.heigth 
+  -->
+  <ul style="list-style-type:disc">
+    <li id="puntoA"></li>
+    <li id="puntoB"></li>
+    <li id="puntoC"></li>
+    <li id="puntod"></li>
+    <li id="puntoe"></li>
+  </ul>  
+  </div>
+
+ <script type="text/javascript">
+  var fecha = new Date();
+  var msj;
+  var contenido_h2 =  document.getElementById("h2").innerHTML;
+  var contenido_h1 =  document.getElementById("h1").outerHTML;
+  var ancho = screen.width;
+  var alto = screen.heigth;
+
+  if      (fecha.getHours() < 7)  { msj = "Buenas noches";}
+  else if (fecha.getHours() < 12) { msj = "Buenos días";}
+  else if (fecha.getHours() < 21) { msj = "Buenas tardes";}
+  else                                          { msj = "Buenas noches";}
+
+  document.getElementById("h1").innerHTML    = msj;
+  document.getElementById("fecha").innerHTML = fecha;
+
+  document.getElementById("puntoA").innerHTML = "el contenido innerHTML del id=h2 es: " + contenido_h2;
+  document.getElementById("puntoB").innerHTML = "Contenido de outerHTML del id=h1 es: " +  document.getElementById("h1").outerHTML;
+  document.getElementById("puntoC").innerHTML = "el valor de location.href es: " + location.href;
+  document.getElementById("puntod").innerHTML = "el valor de location es: " + location;
+  document.getElementById("puntoe").innerHTML = "el valor del ancho es: " + ancho + " y del alto: " + screen.heigth;
+</script>
+</body>
+</html>
