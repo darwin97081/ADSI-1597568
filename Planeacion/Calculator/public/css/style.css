@@ -1,0 +1,85 @@
+
+/* 
+    Created on : 23-abr-2018, 20:23:52
+    Author     : Darwin Andres Torres <darwin97081@gmail.com>
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+h2{
+    text-align: center;
+    color: darkblue;
+}
+
+.container {
+    display: flex;
+    background: space;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    border: seagreen solid;
+    background-color: buttonface;
+    flex-direction: row;
+}
+
+button {
+    height: 40px;
+    width: 31rem;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+}
+button:hover {
+     background-color: steelblue;
+     color: black;
+     cursor: default;
+     font-size: 15px;
+}
+
+input {
+    height: 40px;
+    border-radius: 10px;
+    background-color: steelblue;
+    text-align: center;
+    width: 31rem;
+}
+
+select {
+    height: 45px;
+    border-radius: 10px;
+    background-color: steelblue;
+    width: 31rem;
+    text-align: center;
+    
+}
+p {
+   text-align: center;
+   align-items: center; 
+}
+
+
+@media (max-width: 1040.98px){
+    container{
+      height: 150px;
+      width: 150px;
+    }
+    select {
+        width: 18rem;
+    }
+    input{
+        width: 18rem;
+    }
+    button {
+        width: 18rem;
+    }
+    body{
+        height: 100%;
+        align-content: center;
+        align-items: center;
+        
+    }
+}
